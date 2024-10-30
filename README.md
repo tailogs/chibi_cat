@@ -12,7 +12,26 @@
 - Hide the application icon from the taskbar.
 - Place an icon in the system tray with context menu options for managing the application.
 
+Here’s the revised README text in English with improved structure and flow:
+
+---
+
 ## Installation
+
+Video Guide: [https://youtu.be/H08t6gD1Y1E?si=etF1ef9ZvxkGlrkL](https://youtu.be/H08t6gD1Y1E?si=etF1ef9ZvxkGlrkL)
+
+All necessary `.dll`, `include`, and `lib` files are included in the repository. However, if you’d like to set everything up from scratch or encounter architecture conflicts, you can download the following packages:
+
+- [SDL2-devel-2.30.8-mingw.zip](https://github.com/libsdl-org/SDL/releases/tag/releaseы=s)
+- [SDL2_image-devel-2.8.2-mingw.zip](https://github.com/libsdl-org/SDL_image/releases)
+
+Navigate to the `x86_64-w64-mingw32` directory for 64-bit systems (or the appropriate directory for other architectures), then copy the `lib` and `include` folders from both packages into the `src` folder of this project. Place the `.dll` files in the root of the project folder. Once this setup is complete, simply run:
+
+```sh
+make
+```
+
+### Steps to Set Up and Run
 
 1. **Clone the repository:**
 
@@ -35,8 +54,12 @@
 4. **Run the application:**
 
    ```sh
-   ./chibi_cat
+   chibi_cat.exe
    ```
+
+--- 
+
+This version should work well for the README.md file.
 
 ## Directory Structure
 
