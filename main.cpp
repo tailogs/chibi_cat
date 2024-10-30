@@ -229,7 +229,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int) {
     SDL_Rect destRect;
     SDL_QueryTexture(animations[currentAnimation][0], NULL, NULL, &destRect.w, &destRect.h);
     destRect.x = (WINDOW_WIDTH - destRect.w) / 2;
-    destRect.y = (WINDOW_HEIGHT - destRect.h) / 2;
+    destRect.y = (WINDOW_HEIGHT - destRect.h) / 4;
 
     HideTaskbarIcon(window);
 
