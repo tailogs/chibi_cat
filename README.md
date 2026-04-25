@@ -2,6 +2,10 @@
 
 **chibi_cat** - a simple cat widget that demonstrates cat animations.
 
+![other](other/ChibiCat.jpg)
+
+*Picture 1: Game screenshot*
+
 ## Description
 
 `chibi_cat` is a lightweight and fun widget featuring animated cat graphics. The widget runs in a transparent window and displays various cat animations. It can be minimized to the system tray and interacts with an external process.
